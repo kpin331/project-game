@@ -1,11 +1,13 @@
 [gd_scene format=3 uid="uid://dtf27567upomu"]
 
-[ext_resource type="Texture2D" uid="uid://crk1r5xgnq4bl" path="res://icon.svg" id="1_ig7tw"]
+[ext_resource type="Script" uid="uid://bk2g1ur4k8ngx" path="res://script/character_body_2d.gd" id="1_v0l8b"]
+[ext_resource type="Texture2D" uid="uid://crk1r5xgnq4bl" path="res://icon.svg" id="2_wp4xf"]
 
 [node name="Node2D" type="Node2D" unique_id=2118322334]
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=1075876291]
+script = ExtResource("1_v0l8b")
 
 [node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D" unique_id=584881472]
 position = Vector2(210, 183)
-texture = ExtResource("1_ig7tw")
+texture = ExtResource("2_wp4xf")
